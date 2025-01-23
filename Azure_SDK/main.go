@@ -45,8 +45,8 @@ func main() {
 	}
 
 	// Example of listing blobs with a prefix
-	fmt.Println("\nBlobs with prefix 'example-':")
-	listBlobsFlatOptions(serviceClient, containerName, "example-")
+	fmt.Println("\nBlobs with prefix 'test':")
+	listBlobsFlatOptions(serviceClient, containerName, "test")
 }
 
 func listBlobsFlatOptions(client *azblob.Client, containerName string, prefix string) {
